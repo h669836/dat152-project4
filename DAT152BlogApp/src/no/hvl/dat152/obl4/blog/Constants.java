@@ -17,7 +17,7 @@ public class Constants {
 	public static final int IDP_PORT = 8080;
 	public static final String IDP_AUTH_ENDPOINT = "http://localhost:"+IDP_PORT+"/realms/DAT152/protocol/openid-connect/auth";
 	public static final String IDP_LOGOUT_ENDPOINT = "http://localhost:"+IDP_PORT+"/realms/DAT152/protocol/openid-connect/logout";
-	public static final String IDP_TOKEN_ENDPOINT = "http://localhost:"+IDP_PORT+"/realms/DAT152/protocol/openid-connect/token";
+	public static final String IDP_TOKEN_ENDPOINT = "http://192.168.86.109:"+IDP_PORT+"/realms/DAT152/protocol/openid-connect/token";
 	public static final String IDP_USERCLAIMS_ENDPOINT = "http://localhost:"+IDP_PORT+"/realms/DAT152/protocol/openid-connect/userinfo";
 	public static final String IDP_REGISTER_ENDPOINT = "http://localhost:"+IDP_PORT+"/realms/DAT152/protocol/openid-connect/register";
 	
